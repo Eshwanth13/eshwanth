@@ -22,9 +22,10 @@
     "box4 box5 box6 box3"
     "box4 box7 box8 box8";
     grid-auto-columns: 200px;
-    grid-auto-rows: 200px;
+    grid-auto-rows: 170px;
     max-width: 1200px;
     margin: auto;
+    margin-top: 10px;
   }
   
   .box {
@@ -34,9 +35,9 @@
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     display: flex;
     flex-direction: column;
-    justify-content:flex-start;
+    justify-content:center;
     overflow: hidden;
-    gap: 1.9rem;
+    gap: 1rem;
   }
   
   .box img {
@@ -47,7 +48,9 @@
   p{
     font-size: 1.3rem;
     font-weight: 600;
-    font-family:sans-serif
+    font-family:sans-serif;
+    text-align: center;
+    
   }
   #p11 {
     font-size: 1.3rem;
@@ -75,7 +78,7 @@
     text-align: center;
   }
   #p71{
-    font-size: 3rem;
+    font-size: 1.9rem;
   }
   .box8{
     display: flex;
@@ -91,18 +94,12 @@
 
   }
   .box7 img{
-    height: 25%;
+    height: 28%;
     max-width: 100%;
     object-fit: contain;
   }
   .box8 img{
     height: 120%;
-  }
-  .box7,.box8{
-    height: 15rem;
-  }
-  .box4{
-    height: 29rem;
   }
   .box4 ,.box6{
     background-color: hsl(39, 100%, 71%);
