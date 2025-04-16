@@ -1,0 +1,115 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  body {
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    height: 150vh;
+    display: grid;
+    gap: 20px;
+    grid-template-areas:
+    "box1 box2 box2 box3"
+    "box1 box5 box6 box3"
+    "box4 box5 box6 box3"
+    "box4 box7 box8 box8";
+    grid-auto-columns: 200px;
+    grid-auto-rows: 200px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .box {
+    background-color: white;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    overflow: hidden;
+    gap: 1.9rem;
+  }
+  
+  .box img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+  p{
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family:sans-serif
+  }
+  #p11 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family:sans-serif
+  }
+  
+  #p12 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: hsl(256, 67%, 59%);
+    margin-bottom: 8px;
+  }
+  #p21,#p81{
+    color: white;
+    text-align: center;
+  }
+  #p21{
+    font-size: 1.9rem;
+  }
+  #p22{
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+  }
+  #p71{
+    font-size: 3rem;
+  }
+  .box8{
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    background-color: hsl(256, 67%, 59%);
+  }
+  .box2{
+    background-color: hsl(256, 67%, 59%);
+  }
+  .box2 img{
+    height: 1.5rem;
+
+  }
+  .box7 img{
+    height: 25%;
+    max-width: 100%;
+    object-fit: contain;
+  }
+  .box8 img{
+    height: 120%;
+  }
+  .box7,.box8{
+    height: 15rem;
+  }
+  .box4{
+    height: 29rem;
+  }
+  .box4 ,.box6{
+    background-color: hsl(39, 100%, 71%);
+  }
+  .box3{
+    background-color:hsl(255, 52%, 88%);
+  }
+  .box1{
+    background-color: hsl(254, 23%, 89%);
+  }
